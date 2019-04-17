@@ -1,0 +1,57 @@
+.wrap {
+
+}
+
+.wrap .item {
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1rpx #ccc;
+  color: #676767;
+  font-size: 32rpx;
+  font-weight: 100;
+}
+
+.wrap .item label {
+  width: 220rpx;
+  padding-left: 20rpx;
+  font-weight: 400;
+}
+
+.wrap .item radio-group label {
+  font-weight: 100;
+}
+
+.wrap .content {
+  padding-right: 10rpx;
+}
+
+.wrap .button {
+  margin: 20rpx;
+  border-radius: 10rpx;
+  background: #ff9700;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 200;
+}
+
+
+
+
+.notice {
+  padding: 20rpx;
+}
+
+.notice .message {
+  display: flex;
+  height: 300rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+.notice .message icon {
+  margin-right: 30rpx;
+}

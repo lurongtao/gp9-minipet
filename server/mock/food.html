@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+	<style>
+		#container {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+		}
+	</style>
+</head>
+<body>
+	<div id="container"></div>
+	<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.3&key=c6990f917abbe9a43dae2b868ea726bc&plugin=AMap.Driving"></script>
+	<script>
+		var map = new AMap.Map('container', {
+        	resizeEnable: true,
+        	zoom: 17,
+        	center: [116.397428, 39.90923]
+ 		});
+
+ 		var flag = true;
+
+ 		function handleClick(e) {
+ 			flag = false;
+ 			var point = [e.lnglat.lng, e.lnglat.lat];
+			map.clearMap();
+			
+			var driving = new AMap.Driving({
+		        map: map
+		    });
+
+		    driving.search([
+		        {keyword: '北京市地震局(公交站)',city:'北京'},
+		        {keyword: '亦庄文化园(地铁站)',city:'北京'}
+		    ],function() {
+		    	flag = true;
+		    });
+ 		}
+
+ 		AMap.service(["AMap.PlaceSearch"], function() {
+	        var placeSearch = new AMap.PlaceSearch({ //构造地点查询类
+	            pageSize: 30,
+	            pageIndex: 1,
+	            city: "010",
+	        });
+	       
+	        var cpoint = [116.397428, 39.90923];
+
+	        placeSearch.searchNearBy('美食', cpoint, 200, function(status, result) {
+	        	var circle = new AMap.Circle({
+				    center: cpoint,
+				    radius: 200,
+				    fillOpacity:0.2,
+				    strokeWeight:1
+				})
+				circle.setMap(map);
+
+				var pois = result.poiList.pois;
+				for (var i = 0; i < pois.length; i++) {
+					var item = pois[i];
+					var marker = new AMap.Marker({
+						position: [item.location.lng, item.location.lat],
+						title: "测试",
+						clickable: true
+					});
+					AMap.event.addListener(marker, 'click', handleClick);
+					marker.setMap(map);
+				}
+
+	        });
+
+	        map.on("moveend", function() {
+	        	if (!flag) {
+	        		return;
+	        	}
+	        	map.setZoom(17);
+	        	map.clearMap();
+	        	var center = map.getCenter();
+ 				var cpoint = [center.lng, center.lat];
+ 				
+				placeSearch.searchNearBy('卫生间', cpoint, 200, function(status, result) {
+					var circle = new AMap.Circle({
+				    	center: cpoint,
+				    	radius: 200,
+				    	fillOpacity:0.2,
+				    	strokeWeight:1
+					})
+					circle.setMap(map);
+
+					var pois = result.poiList.pois;
+					for (var i = 0; i < pois.length; i++) {
+						var item = pois[i];
+						var marker = new AMap.Marker({
+							position: [item.location.lng, item.location.lat],
+							title: "测试",
+							clickable: true
+						});
+						marker.setMap(map);
+					}
+				});
+ 			})
+	    });
+	    
+	    map.plugin(["AMap.ToolBar"], function() {
+            map.addControl(new AMap.ToolBar());
+        });
+	</script>
+</body>
+</html>

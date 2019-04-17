@@ -1,0 +1,17 @@
+<view class="index-container">
+  <view>
+    <map
+      id="map"
+      longitude="{{longitude}}"
+      latitude="{{latitude}}"
+      controls="{{controls}}"
+      bindcontroltap="controltap"
+      scale="16"
+      show-location
+    ></map>
+  </view>
+  <view>
+    <view class="publish">发布</view>
+    <view class="search">搜索</view>
+  </view>
+</view>

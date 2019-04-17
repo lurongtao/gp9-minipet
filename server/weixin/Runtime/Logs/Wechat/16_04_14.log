@@ -1,0 +1,135 @@
+[ 2016-04-14T19:36:47+08:00 ] 127.0.0.1 /?s=wechat/index/liveList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-04-14T19:36:49+08:00 ] 127.0.0.1 /?s=Wechat/Index/moreLivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-04-14T19:36:51+08:00 ] 127.0.0.1 /?s=Wechat/Index/refreshLivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-04-14T19:36:52+08:00 ] 127.0.0.1 /?s=Wechat/Index/moreLivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-04-14T19:36:54+08:00 ] 127.0.0.1 /?s=Wechat/Index/refreshLivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-04-14T19:37:00+08:00 ] 127.0.0.1 /?s=Wechat/Index/refreshLivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-04-14T19:37:05+08:00 ] 127.0.0.1 /?s=wechat/index/liveList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+
+[ 2016-04-14T20:19:51+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+
+[ 2016-04-14T20:20:10+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-04-14T20:23:18+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-04-14T20:23:23+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+
+[ 2016-04-14T20:23:25+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2FmoreLivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-04-14T20:23:27+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2FrefreshLivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-04-14T20:23:37+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+
+[ 2016-04-14T20:31:30+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-04-14T20:54:42+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+
+[ 2016-04-14T20:57:30+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+
+[ 2016-04-14T20:57:31+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-04-14T20:57:31+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-04-14T20:59:41+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+
+[ 2016-04-14T21:00:13+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+
+[ 2016-04-14T21:00:18+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+
+[ 2016-04-14T21:01:18+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+
+[ 2016-04-14T21:01:21+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2FmoreLivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+
+[ 2016-04-14T21:01:23+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2FrefreshLivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-04-14T21:01:54+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-04-14T21:02:14+08:00 ] 127.0.0.1 /?s=%2FWechat%2FIndex%2Flivelist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+

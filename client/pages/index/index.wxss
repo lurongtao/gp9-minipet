@@ -1,0 +1,33 @@
+.index-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.index-container > view:nth-child(1) {
+  flex: 1;
+}
+
+.index-container map {
+  height: 100%;
+  width: 100%;
+}
+
+.index-container > view:nth-child(2) {
+  height: 44px;
+  background: #ff9700;
+  display: flex;
+}
+
+.index-container .publish,
+.index-container .search {
+  flex: 1;
+  text-align: center;
+  line-height: 44px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.index-container .search {
+  background: #03bbd5;
+}

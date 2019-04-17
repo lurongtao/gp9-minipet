@@ -1,0 +1,56 @@
+<view class="wrap" wx:if="{{!isSubmit}}">
+  <view class="item">
+    <label class="label">
+      <text>我的地址</text>
+    </label>
+    <view class="content" bindtap="handleAddressTap">
+      {{address}}
+    </view>
+  </view>
+  <view class="item">
+    <label class="label">
+      <text>类型</text>
+    </label>
+    <view class="content">
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio">
+          <radio value="buy" checked="{{true}}" />
+          求购
+        </label>
+        <label class="radio">
+          <radio value="sell" />
+          转让
+        </label>
+      </radio-group>
+    </view>
+  </view>
+  <view class="item">
+    <label class="label">
+      <text>说明</text>
+    </label>
+    <view class="content">
+      <input bindinput="handleMessageInput" value="{{Message}}" placeholder="请输入说明" />
+    </view>
+  </view>
+  <view class="item">
+    <label class="label">
+      <text>联系方式</text>
+    </label>
+    <view class="content">
+      <input bindinput="handleContactInput" value="{{contact}}" placeholder="请输入联系方式" />
+    </view>
+  </view>
+  <view class="button" bindtap="handleSubmit">
+    <text>发布</text>
+  </view>
+</view>
+
+<view class="notice" wx:if="{{isSubmit}}">
+  <view class="message">
+    <icon type="success" size="40" color="red" />
+    信息发布成功/信息发布失败
+  </view>
+  <view class="ctrl">
+    <button type="primary">返回/重新发布</button>
+  </view>
+</view>
