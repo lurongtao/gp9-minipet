@@ -37,21 +37,3 @@
   font-size: 32rpx;
   font-weight: 200;
 }
-
-
-
-
-.notice {
-  padding: 20rpx;
-}
-
-.notice .message {
-  display: flex;
-  height: 300rpx;
-  align-items: center;
-  justify-content: center;
-}
-
-.notice .message icon {
-  margin-right: 30rpx;
-}

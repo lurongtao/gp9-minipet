@@ -45,5 +45,4 @@
   </view>
 </view>
 
-<import src="/templates/notice.wxml" />
-<template is="notice" data="{{isSubmit, isSuccess, back}}"></template>
+<notice bindChangeSubmit="changeSubmit" isSubmit="{{isSubmit}}" isSuccess="{{isSuccess}}"></notice>

@@ -91,15 +91,9 @@ Page({
     })
   },
 
-  action() {
-    if (this.data.isSuccess) {
-      wx.navigateBack({
-        delta: 1
-      })
-    } else {
-      this.setData({
-        isSubmit: false
-      })
-    }
+  changeSubmit() {
+    this.setData({
+      isSubmit: false
+    })
   }
 })
