@@ -37,5 +37,11 @@ Page({
         })
       }
     })
+  },
+
+  publish () {
+    wx.navigateTo({
+      url: '/pages/publish/publish',
+    })
   }
 })

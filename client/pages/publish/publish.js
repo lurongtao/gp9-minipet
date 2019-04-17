@@ -89,5 +89,17 @@ Page({
       icon,
       duration: 1500
     })
+  },
+
+  action() {
+    if (this.data.isSuccess) {
+      wx.navigateBack({
+        delta: 1
+      })
+    } else {
+      this.setData({
+        isSubmit: false
+      })
+    }
   }
 })

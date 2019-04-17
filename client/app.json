@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/publish/publish",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/publish/publish"
   ],
 
   "window": {

@@ -11,7 +11,7 @@
     ></map>
   </view>
   <view>
-    <view class="publish">发布</view>
+    <view class="publish" bindtap="publish">发布</view>
     <view class="search">搜索</view>
   </view>
 </view>

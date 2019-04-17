@@ -45,12 +45,5 @@
   </view>
 </view>
 
-<view class="notice" wx:if="{{isSubmit}}">
-  <view class="message">
-    <icon type="success" size="40" color="red" />
-    信息发布成功/信息发布失败
-  </view>
-  <view class="ctrl">
-    <button type="primary">返回/重新发布</button>
-  </view>
-</view>
+<import src="/templates/notice.wxml" />
+<template is="notice" data="{{isSubmit, isSuccess, back}}"></template>
