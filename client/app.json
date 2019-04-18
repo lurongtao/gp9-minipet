@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/publish/publish"
+    "pages/search/search",
+    "pages/publish/publish",
+    "pages/detail/detail"
   ],
 
   "window": {

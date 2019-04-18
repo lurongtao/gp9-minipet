@@ -1,0 +1,42 @@
+<view class="wrap">
+  <view class="item">
+    <label class="label">
+      <text>我的地址</text>
+    </label>
+    <view class="content">
+      {{detail.address}}
+    </view>
+  </view>
+  <view class="item">
+    <label class="label">
+      <text>类型</text>
+    </label>
+    <view class="content">
+      <image
+        mode="aspectFill"
+        style="width: 40px; height: 40px;"
+        src="{{'/resources/'+ detail.type +'.png'}}"
+      ></image>
+      {{detail.type === 'buy' ? '求购' : '转让'}}
+    </view>
+  </view>
+  <view class="item">
+    <label class="label">
+      <text>说明</text>
+    </label>
+    <view class="content">
+      {{detail.message}}
+    </view>
+  </view>
+  <view class="item">
+    <label class="label">
+      <text>联系方式</text>
+    </label>
+    <view class="content">
+      {{detail.contact}}
+    </view>
+  </view>
+  <view class="button" bindtap="handleBack">
+    <text>返回</text>
+  </view>
+</view>

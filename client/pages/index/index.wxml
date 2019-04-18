@@ -5,6 +5,8 @@
       longitude="{{longitude}}"
       latitude="{{latitude}}"
       controls="{{controls}}"
+      markers="{{markers}}"
+      bindmarkertap="markertap"
       bindcontroltap="controltap"
       scale="16"
       show-location
@@ -12,6 +14,6 @@
   </view>
   <view>
     <view class="publish" bindtap="publish">发布</view>
-    <view class="search">搜索</view>
+    <view class="search" bindtap="search">搜索</view>
   </view>
 </view>
